@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: django
-          image: us-central1-docker.pkg.dev/devops-gke-github-ci/django-repo/django-app:latest
+          image: us-central1-docker.pkg.dev/devops-gke-github-ci/django-repo/django-app:PLACEHOLDER
           ports:
             - containerPort: 8000
           env:
